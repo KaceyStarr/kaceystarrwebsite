@@ -176,32 +176,69 @@
             <section class="resume-section" id="Projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects/Research</h2>
-                    <div class="slider-container">
-                        <div class="slider-wrapper">
-                            <div class="slider-item">
-                                <h3>Inclusive Financial Accessibility Oct 2024</h3>
-                                <p>
-                                    A Hackaton project where we designed to improve access to financial services for underserved communities by providing financial education, tools, and resources.
-                                </p>
-                                <p>
-                                    <a href="https://github.com/KaceyStarr/Inclusive-Financial-Accessibility">Click Here</a>
-                                </p>
-                            </div>
-                            <div class="slider-item">
-                                <h3>Analysis of Drop Rates in UTRGV Computer Science Degree Courses</h3>
-                                <p>
-                                    The project aims to analyze the drop rates in computer science degree courses at UTRGV.
-                                </p>
-                                <p>
-                                    <a href="https://github.com/KaceyStarr/Analysis-of-Drop-Rates-in-UTRGV-Computer-Science-Degree-Courses" >Click Here</a>
-                                </p>
-                            </div>
+                    <div class="projects-container">
+                        <div class="project-box">
+                            <h3>Inclusive Financial Accessibility Oct 2024</h3>
+                            <img src="" alt="Inclusive Financial Accessibility" class="project-image">
+                            <p>
+                                A Hackaton project where we designed to improve access to financial services for underserved communities by providing financial education, tools, and resources.
+                            </p>
+                            <p>
+                                <a href="https://github.com/KaceyStarr/Inclusive-Financial-Accessibility">Click Here</a>
+                            </p>
                         </div>
-                        <button class="arrow arrow-left" id="prevBtn">&#8592;</button>
-                        <button class="arrow arrow-right" id="nextBtn">&#8594;</button>
+                        <div class="project-box">
+                            <h3>Analysis of Drop Rates in UTRGV Computer Science Degree Courses</h3>
+                            <img src="path/to/your-image2.jpg" alt="Analysis of Drop Rates" class="project-image">
+                            <p>
+                                The project aims to analyze the drop rates in computer science degree courses at UTRGV.
+                            </p>
+                            <p>
+                                <a href="https://github.com/KaceyStarr/Analysis-of-Drop-Rates-in-UTRGV-Computer-Science-Degree-Courses">Click Here</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+            
+            <style>
+                .projects-container {
+                    display: flex;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                }
+            
+                .project-box {
+                    border: 2px solid #ccc;
+                    padding: 20px;
+                    width: 45%;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s;
+                }
+            
+                .project-box:hover {
+                    transform: scale(1.05);
+                }
+            
+                .project-box h3 {
+                    font-size: 1.2em;
+                    margin-bottom: 10px;
+                }
+            
+                .project-box p {
+                    margin-bottom: 10px;
+                }
+            
+                .project-image {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                    margin-bottom: 15px;
+                }
+            </style>
+            
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
